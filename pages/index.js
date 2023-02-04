@@ -16,50 +16,42 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.js</code>
-          </p>
+          <span>
+            <span className="pr-4">Life Balance - Uma vida mais saudável através da educação de qualidade</span>
+            <code className={styles.code}>-  página em manutenção</code>
+          </span>
           <div>
             <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+              href="/ebooks/guia-pratico-ansiedade"
               target="_blank"
               rel="noopener noreferrer"
             >
               By{' '}
+              <div className='bg-slate-800 px-4 py-2 rounded-2xl flex items-center justify-center'>
               <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
+                src="/Logo.svg"
+                alt="Life Balance Logo"
                 width={100}
                 height={24}
                 priority
               />
+              </div>
             </a>
           </div>
         </div>
 
-        <div className={styles.center}>
+        <div className='bg-slate-800 px-4 py-2 rounded-2xl flex items-center justify-center'>
           <Image
             className={styles.logo}
-            src="/next.svg"
+            src="/Logo.svg"
             alt="Next.js Logo"
             width={180}
             height={37}
             priority
           />
-          <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
-          </div>
         </div>
 
-        <div className={styles.grid}>
+        {/* <div className={styles.grid}>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
@@ -72,9 +64,9 @@ export default function Home() {
             <p className={inter.className}>
               Find in-depth information about Next.js features and&nbsp;API.
             </p>
-          </a>
+          </a> */}
 
-          <a
+          {/* <a
             href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
             target="_blank"
@@ -115,8 +107,8 @@ export default function Home() {
               Instantly deploy your Next.js site to a shareable URL
               with&nbsp;Vercel.
             </p>
-          </a>
-        </div>
+          </a> */}
+        {/* </div> */}
       </main>
     </>
   )

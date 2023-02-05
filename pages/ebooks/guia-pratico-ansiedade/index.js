@@ -49,11 +49,11 @@ export default function GuiaAnsiedade() {
         <section className="w-full bg-slate-50 pb-0 pt-12 md:pt-0 md:pb-20">
           <div className="flex md:flex-row flex-col max-w-6xl  mx-auto">
             <div className="flex flex-col justify-center items-center sm:items-start mx-auto">
-              <h1 className="sm:text-5xl text-3xl text-center sm:text-left mb-4 font-extrabold max-w-[395px] tracking-wide">
+              <h1 className="sm:text-5xl text-3xl text-slate-900 text-center sm:text-left mb-4 font-extrabold max-w-[395px] tracking-wide">
                 DA DESORDEM À <span className="text-indigo-500">CALMA</span>:
               </h1>
 
-              <p className="text-base sm:text-2xl text-center sm:text-left mb-8 font-bold max-w-[400px] px-4 sm:px-0">
+              <p className="text-base sm:text-2xl text-slate-800 text-center sm:text-left mb-8 font-bold max-w-[400px] px-4 sm:px-0">
                 Guia <span className="text-amber-700">Prático</span> de
                 Estratégias Para Uma Vida Calma, Confiante e Equilibrada{" "}
               </p>
@@ -94,12 +94,12 @@ export default function GuiaAnsiedade() {
                 física e mental.
               </h2>
 
-              <p className="text-sm sm:text-base text-center sm:text-left mb-2 font-bold max-w-[600px] px-4 sm:px-0">
+              <p className="text-sm sm:text-base text-slate-800 text-center sm:text-left mb-2 font-bold max-w-[600px] px-4 sm:px-0">
                 A ansiedade pode ter graves impactos em sua saúde física e
                 mental.
               </p>
 
-              <p className="text-sm sm:text-base text-center sm:text-left mb-8 font-bold max-w-[600px] px-4 sm:px-0">
+              <p className="text-sm sm:text-base text-slate-800 text-center sm:text-left mb-8 font-bold max-w-[600px] px-4 sm:px-0">
                 Ela pode levar a problemas como insônia, dores de cabeça,
                 pressão alta e até mesmo aumentar o risco de doenças cardíacas.
               </p>

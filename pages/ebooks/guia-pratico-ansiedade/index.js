@@ -70,7 +70,7 @@ export default function GuiaAnsiedade() {
                 href="#conteudo"
                 className="px-6 py-3 sm:px-8 sm:py-4 bg-indigo-600 z-20 max-w-fit rounded-xl hover:brightness-125 transition-all"
               >
-                <span className="text-neutral-50 text-sm sm:text-base font-semibold">
+                <span className="text-neutral-50 text-sm sm:text-lg font-semibold">
                   Quero saber mais
                 </span>
               </a>
@@ -108,7 +108,7 @@ export default function GuiaAnsiedade() {
                 mental. Ela pode levar a problemas como:
               </p>
 
-              <div className="ml-2 sm:text-lg">
+              <div className="ml-2 sm:text-lg tetx-slate-700">
                 <p>● insônia;</p>
                 <p>● dores de cabeça;</p>
                 <p>● pressão alta;</p>

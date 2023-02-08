@@ -108,7 +108,7 @@ export default function GuiaAnsiedade() {
                 mental. Ela pode levar a problemas como:
               </p>
 
-              <div className="ml-2 sm:text-lg tetx-slate-700">
+              <div className="ml-2 sm:text-lg text-slate-700">
                 <p>● insônia;</p>
                 <p>● dores de cabeça;</p>
                 <p>● pressão alta;</p>

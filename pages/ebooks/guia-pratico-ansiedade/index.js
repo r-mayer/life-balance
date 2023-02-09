@@ -321,9 +321,6 @@ export default function GuiaAnsiedade() {
                 <p>
                   <b>Ilustrado</b>
                 </p>
-                <p className="mb-4">
-                  <b>Copyright:</b> Life Balance™
-                </p>
                 <p className="text-lg text-slate-600 font-bold">
                   de: <span className="line-through">R$ 49,90</span>
                 </p>
@@ -386,9 +383,44 @@ export default function GuiaAnsiedade() {
           </div>
         </section>
 
-        <section className="w-full py-8 sm:py-14 bg-slate-900 px-4">
+        <section className="w-full bg-slate-50 py-12 sm:py-14 px-4">
+          <div className="flex flex-col max-w-5xl  mx-auto">
+            <div className="flex flex-col justify-center items-center sm:items-start mx-auto">
+              <h2 className="sm:text-4xl sm:leading-[50px] text-2xl text-slate-700 text-center mb-4 font-extrabold">
+                Cada página foi criada com empenho para que você tenha{" "}
+                <span className="bg-yellow-100 px-1">as melhores técnicas</span>{" "}
+                de controle de ansiedade.
+              </h2>
+
+              <p className="text-base sm:text-md text-blue-800 text-center mx-auto mb-4 font-bold px-4 sm:px-0">
+                Veja abaixo uma das páginas do eBook.
+              </p>
+            </div>
+            <div className="flex items-center justify-center">
+              <Image
+                src="/page-exemplo.png"
+                alt="Capa do ebook"
+                width={400}
+                height={514}
+                className=" shadow-lg"
+                priority
+              />
+            </div>
+            <a
+              href="https://pay.kiwify.com.br/s6fO8Ia"
+              className="px-6 py-3 bg-indigo-700 z-20 max-w-fit mx-auto mt-8 rounded-xl hover:brightness-150 transition-all"
+              target="_blank"
+            >
+              <span className="text-neutral-50 text-base font-semibold">
+                Veja mais
+              </span>
+            </a>
+          </div>
+        </section>
+
+        <section className="w-full py-6 sm:py-8 bg-slate-900 px-4">
           <div className="max-w-6xl mx-auto">
-            <div className=" flex items-center justify-center">
+            <div className=" flex items-center justify-center mb-2">
               <Image
                 src="/Logo.svg"
                 alt="Life Balance Logo"
@@ -397,7 +429,7 @@ export default function GuiaAnsiedade() {
                 priority
               />
             </div>
-            <h2 className="text-xs sm:text-base text-center max-w-5xl mx-auto font-bold text-neutral-400">
+            <h2 className="text-sm  text-center max-w-5xl mx-auto font-semibold text-neutral-400">
               Copyright Life Balance © 2022-2023. Todos os direitos reservados.
             </h2>
           </div>
